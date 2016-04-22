@@ -1,0 +1,40 @@
+Webix
+官网 http://www.webix.com
+文档 http://docs.webix.com/chm/webix.zip
+前端框架 https://webix.gitbooks.io/webix-jet/content/
+其他资料 https://github.com/webix-hub
+Requirejs (JS资源管理/模块管理)
+Routie (路由)
+moment.js (日期计算)
+Lodash (集合计算)
+
+资源介绍 –后端Nodejs
+Express/KOA (Pipe式框架)
+body-parser
+cookie-parser
+express-session
+errorhandler
+co-express
+Bluebird
+Crypto (加解密)
+Lodash (集合计算)
+Moment (日期计算)
+Multer (多文件上传)
+node-xlsx (Excel解析)
+
+资源介绍 – 数据库 MongoDB /MSSQL
+mongodb (芒果DB的原生库)
+mongoose(芒果DB的ORM库)
+Mongoskin(芒果皮 对芒果DB的连接进行了封装 推荐)
+Mssql (MSSQL库 支持存储过程)
+
+Git
+Github
+Git.oschina
+gitlib
+Linux
+Putty
+WinSCP
+安装linux nodejs环境 和mongodb环境
+部署网站 并使用后台服务(nohup/setid/screen)
+
