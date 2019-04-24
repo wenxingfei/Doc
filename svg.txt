@@ -1,0 +1,41 @@
+<svg width="500" height="200" version="1.1" xmlns = 'http://www.w3.org/2000/svg' xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 200">  
+    <defs>
+      <style type="text/css">
+        @font-face {
+          font-family: 'FontAwesome';
+          src: url(data:font/opentype;base64,[...]) format('opentype');
+        }
+      </style>
+    </defs>
+    <rect x="0" y="0" height="100" width="500" fill="#eee" />
+    <text x="20" y="50" font-family="FontAwesome" font-weight="normal" font-size="32">
+      &#xf007
+    </text>
+  </svg>
+
+取代 [...] base64编码版本的字体。您可以将.ttf或.otf文件上传到base64服务或命令行 openssl base64 -in< infile> -out< outfile> 。
+如果要将FontAwesome库子集化，可以转到icomoon http://icom.on/app/#library 并添加FontAwesome库。然后选择所需的图标，下载zip，然后将ttf上传到base64编码服务，如 http：// www.opinionatedatedek.com/dotnet/tools/base64encode/ ，并将结果字符串粘贴到 src： font-face声明。
+
+
+ <？xml version =“1.0 “standalone =”yes“？> 
+< svg width =”100％“height =”100％“version =”1.1“
+ xmlns ='http://www.w3.org/ 2000 / svg'> 
+< defs> 
+< font id =“Font2”horiz-adv-x =“1000”> 
+& “Super Sans”font-weight =“normal”font-style =“italic”
+ units-per-em =“1000”cap-height =“600”x-height =“400”
+ =“700”descent =“300”
+ alphabetic =“0”mathematical =“350”ideographic =“400”hanging =“500”> 
+< font-face-src> 
+< font-face-name name =“Super Sans Italic”/> 
+< / font-face-src> 
+< / font-face> 
+& glyph>< path d =“M0,0h200v200h-200z”/>< / missing-glyph> 
+< glyph unicode =“！”horiz-adv-x =“300”> - 惊叹号。 pt。 glyph  - >< / glyph> 
+< glyph unicode =“@”><！ -  @ glyph  - >< / glyph> 
+<！ - 更多glyphs  - > 
+< / font> 
+< / defs> 
+< / svg> 
+
+
